@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: q 8617328852214, qq, LIC=BL29U-SC3D6-358TX-HAJX4-4JUCV-2G613
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMCM1.DLL V1.17.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+D:\1Awork\aq000\DEMO\STM32F030Bootloader\Platforms\MDK-ARM\Platforms.uvprojx
+Project File Date:  01/20/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Platforms'
+assembling startup_stm32f030x6.s...
+compiling stm32f0xx_hal_msp.c...
+../Src/stm32f0xx_hal_msp.c(35): error:  #5: cannot open source input file "stm32f0xx_hal.h": No such file or directory
+  #include "stm32f0xx_hal.h"
+../Src/stm32f0xx_hal_msp.c: 0 warnings, 1 error
+compiling stm32f0xx_it.c...
+../Src/stm32f0xx_it.c(34): error:  #5: cannot open source input file "stm32f0xx_hal.h": No such file or directory
+  #include "stm32f0xx_hal.h"
+../Src/stm32f0xx_it.c: 0 warnings, 1 error
+compiling main.c...
+../Src/main.c(34): error:  #5: cannot open source input file "stm32f0xx_hal.h": No such file or directory
+  #include "stm32f0xx_hal.h"
+../Src/main.c: 0 warnings, 1 error
+compiling flash_if.c...
+..\YD-Bootloader\flash_if.h(43): error:  #5: cannot open source input file "stm32f0xx_hal.h": No such file or directory
+  #include "stm32f0xx_hal.h"
+..\YD-Bootloader\Src\flash_if.c: 0 warnings, 1 error
+compiling xmodem.c...
+..\YD-Bootloader\xmodem.h(13): error:  #5: cannot open source input file "stm32f0xx_hal.h": No such file or directory
+  #include "stm32f0xx_hal.h"
+..\YD-Bootloader\xmodem.c: 0 warnings, 1 error
+compiling Boot.c...
+..\YD-Bootloader\boot.h(13): error:  #5: cannot open source input file "stm32f0xx_hal.h": No such file or directory
+  #include "stm32f0xx_hal.h"
+..\YD-Bootloader\Boot.c: 0 warnings, 1 error
+compiling stm32f0xx_hal.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_uart.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_rcc_ex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_flash.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_uart_ex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_flash_ex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_tim_ex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_gpio.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_i2c.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_tim.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_pwr.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_rcc.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_dma.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_cortex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_i2c_ex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c: 0 warnings, 1 error
+compiling stm32f0xx_hal_pwr_ex.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c: 0 warnings, 1 error
+compiling system_stm32f0xx.c...
+"no source": Error:  #5: cannot open source input file "D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/system_stm32f0xx.c": No such file or directory
+D:/Documents/STM32CubeMX/STM32Cube_FW_F0_V1.5.0/Drivers/CMSIS/Device/ST/STM32F0xx/Source/Templates/system_stm32f0xx.c: 0 warnings, 1 error
+"Platforms\Platforms.axf" - 6 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Platforms
+  C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
